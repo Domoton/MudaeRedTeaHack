@@ -28,3 +28,5 @@ Uses auth token and channel ID to receive MUDAE messages and Send message to mud
 # Why did I make this?
 A: I have no Idea why I spent 5-6 hours making this.
 
+Thanks to dwyl For wordlist
+Do not touch the wordlist for accurate results
