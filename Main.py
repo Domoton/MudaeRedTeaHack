@@ -1,22 +1,22 @@
-from timeit import repeat
+
 from wsgiref import headers
 import requests
 import json
 from itertools import chain, permutations
 import itertools
-import enchant
 import random
 import os
 from os.path import exists
 
 
 
-d=enchant.Dict("en_US")
 op=set()
 
 
 def load_words():
-    with open('words.txt') as word_file:
+    words = os.path.dirname(os.path.abspath(__file__))
+    yomamam = os.path.join(words, "words.txt")
+    with open(yomamam) as word_file:
         valid_words = set(word_file.read().split())
 
     return valid_words
